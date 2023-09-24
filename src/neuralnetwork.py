@@ -100,9 +100,6 @@ test_file.close()
 # Test with specific data points
 test_input = test_data[0].split(',')
 print('ZIEL:', test_data[0])
-print('OUTPUT:', n.query(((numpy.asfarray(test_input[2:4]) / 100.0 * 0.99) + 0.01)))
-
-print('ZIEL:', test_data[0])
 print('OUTPUT:', n.query(((numpy.asfarray(test_input[2:4]) / 100.0*0.99) + 0.01)))
 
 test_input = test_data[66].split(',')
